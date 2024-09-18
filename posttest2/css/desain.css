@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "MagicSchoolOne";
+    src: url("font/MagicSchoolOne.ttf") format("truetype");
+}
+@font-face {
+    font-family:"RingbearerMedium-51mgZ";
+    src: url("font/RingbearerMedium-51mgZ.ttf") format("truetype");
+}
+@font-face {
+    font-family:"MagicSchoolTwo";
+    src: url("font/MagicSchoolTwo.ttf") format("truetype");
+}
+.navbar{
+    background-color: #070F2B;
+    margin: 0px;
+    padding: 20px 20px;
+    width: 100%;
+    display:flex;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    position: absolute ;
+    overflow:hidden;
+    font-family: "RingbearerMedium-51mgZ";
+}
+
+.navbar li{
+	padding-left: 0;
+	margin-right: px;
+    gap: 90px;
+}
+.textimage{
+    position: relative;
+    color: black;
+    left: 105%;
+    top: 60%;
+    bottom: -450px;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    padding: 0.5rem;
+    font-family: wizard, sans-serif;
+    text-align:center;
+    max-height: 100vh;
+}
+.textimage p{
+    white-space: nowrap;
+    text-align:center;
+    position: absolute;
+    gap: 30px;
+    font-size: 17px;
+}
+.textimage h2{
+    text-align: right;
+    font-size: 40px;
+    top: -0px;
+    bottom: 30px;
+    left: -100px;
+    right: 100px;
+    position: relative;
+    white-space: nowrap;
+
+}
+
+
+.navbar li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+    font-family: hobbit;
+}
+.navbar a:hover {
+    color: black;
+    background-color: #535C91;
+    border-radius: 10px;
+  }
+.navbar a{
+ color: 9290C3;
+ text-align: center;
+ text-decoration: none;
+ font-family: hobbit, sans-serif;
+}
+.navbar a.active{
+    color: #9290C3;
+    text-align: center;
+    
+   } 
+.html{
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+}
+
+
+#gambar-scroll {
+    top: 50px; 
+    right: 5px;
+    left: 735px;
+    bottom: 60px;
+    width: 525px;
+    height: auto;
+    position: absolute;
+    max-width: 100%;
+}
+#gambar-line-scroll{
+    top: 190px;
+    width: 300px;
+    height: 65px;
+    bottom: 180px;
+    right: 130px;
+    left: 860px;
+    position: absolute;
+}
+
+
+.body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/tavernbackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    justify-content: center;
+}
+.plank{
+    background-image:url(../img/woodbg.jpg) ;
+    text-align: center;
+    padding: 4%;
+    background-size:cover;
+    width: 100%;
+    position: absolute;
+    background-position:0%;
+    height: 30px;
+    background-repeat: no-repeat;
+    top: 660px;
+    right: -100px;
+}
+.plank p{
+    font-family: Hobbit;
+    color:crimson;
+    font-size: 23px;
+    position: relative;
+    top: -30px;
+}
+.boxfoot{
+    background-color: black;
+    position: relative;
+    border-radius: 2%;
+    margin-left: -50px;
+    
+}
+.transparent-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#nasgor{
+    top: 205px; 
+    right: 550px;
+    left: 210px;
+    bottom: 60px;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+}
+
+.berbaris{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80%;
+    
+}
+.table{
+    position: relative;
+    top: -10;
+
+}
+.table, td{
+    margin-top: -290px;
+    padding: 25px;
+    white-space: nowrap;
+    margin-left: 15px;
+    position: relative;
+    top: -40px;
+    left: 35px;
+    font-size: 17px;
+    justify-content: center;
+}
+.table, th{position: relative;
+    top: -20px;
+    left: 30px;
+    font-size: 20px;
+}
+
+.berbaris p{
+    display: flex;
+    font-family: wizard; 
+    color: black;
+    
+}
+#linebottom{
+    top: 420px;
+    width: 480px;
+    height: 40px;
+    bottom: 200px;
+    right: 130px;
+    left: 760px;
+    position: absolute;
+}
+
+/* terbengkalai
+@media screen and (max-width: 600px){
+    .navbar{
+        background-color: #070F2B;
+        margin: 0px;
+        padding: 15px 15px;
+        width: 100%;
+        display:flex;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        font-size: 13px;
+        overflow:hidden;
+        line-height: normal;
+    }
+    body{
+        background-image: url(/img/Tavern\ inside\,\ Yami-Yami.jpg);
+        background-size: 280%;
+        background-repeat: no-repeat;
+        background-position: 35%;
+      }
+    #nasgor{
+        top: 270px; 
+        right: 550px;
+        left: 30px;
+        bottom: 60px;
+        width: 130px;
+        height: auto;
+    }
+    .plank{
+        background-image:url(/img/woodbg.jpg) ;
+        text-align: center;
+        padding: 15%;
+        background-size:cover;
+        width: 100%;
+        height: 40px;
+        top: 90%;
+        background-repeat: no-repeat;
+        right: auto;
+    }
+    .plank p{
+        font-family: Hobbit;
+        color:crimson;
+        font-size: 17px;
+        top: -30px;
+        text-align: center;
+    }
+    .boxfoot{
+        background-color: black;
+        bottom: -60%;
+        right: 10%;
+        padding: 5%;   
+    }
+    #gambar-scroll {
+        top: 210px; 
+        right: 5px;
+        left: auto;
+        bottom: 40px;
+        width: 185px;
+        height: auto;
+        max-width: 100%;
+    }
+    #gambar-line-scroll{
+        top: 265px;
+        width: 130px;
+        height: auto;
+        bottom: 10px;
+        right: 30px;
+        left: auto;
+    }
+    .textimage{
+        color: black;
+        left: 60%;
+        top: 60%;
+        bottom: -450px;
+        font-family: wizard;
+        text-align:center;
+        overflow: hidden;
+        font-size: 9px;
+        left: ;
+        
+
+    }
+    .textimage {
+        text-align:center;
+        position: absolute;
+        gap: px;
+        font-size: px;
+
+    }
+    .textimage h2{
+        text-align: right;
+        font-size: 23px;
+        top: -21px;
+        bottom: 30px;
+        left: -160px;
+        right: 100px;
+        position: relative;
+        white-space: nowrap;
+    
+    }
+}
