@@ -51,15 +51,15 @@
 }
 @font-face {
     font-family: wizard;
-    src: url(/font/MagicSchoolOne.ttf);
+    src: url(font/MagicSchoolOne.ttf);
 }
 @font-face {
     font-family: hobbit;
-    src: url(/font/RingbearerMedium-51mgZ.ttf);
+    src: url(font/RingbearerMedium-51mgZ.ttf);
 }
 @font-face {
     font-family: wizard2;
-    src: url(/font/MagicSchoolTwo.ttf);
+    src: url(font/MagicSchoolTwo.ttf);
 }
 
 .navbar li a{
@@ -115,7 +115,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: url(/img/Tavern\ inside\,\ Yami-Yami.jpg);
+    background-image: url(img/Tavern\ inside\,\ Yami-Yami.jpg);
     overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body{
     display: none;
 }
 .plank{
-    background-image:url(/img/woodbg.jpg) ;
+    background-image:url(img/woodbg.jpg) ;
     text-align: center;
     padding: 4%;
     background-size:cover;
