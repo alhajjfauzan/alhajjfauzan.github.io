@@ -1,13 +1,13 @@
 @font-face {
-    font-family: wizard;
+    font-family: "wizard";
     src: url(font/MagicSchoolOne.ttf);
 }
 @font-face {
-    font-family: hobbit;
+    font-family: "hobbit";
     src: url(font/RingbearerMedium-51mgZ.ttf);
 }
 @font-face {
-    font-family: wizard2;
+    font-family: "wizard2";
     src: url(font/MagicSchoolTwo.ttf);
 }
 .navbar{
