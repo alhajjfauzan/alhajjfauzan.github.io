@@ -13,16 +13,13 @@
     margin-bottom: 0;
 
 }
-@font-face {
-    font-family: 'wizard';
-    src: url('font/MagicSchoolOne.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
-  @font-face {
-    font-family: 'hobbit';
-    src: url('font/hobbit.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
+ @font-face {
+        font-family:'kal';
+        src: url('font/tumbuhan.woff') format("woff");}
+        @font-face {
+            font-family: 'roman';
+            src: url('font/dayoff.woff') format("woff");
+        }
 .navbar ul{
     list-style: none;
     align-items: center;
@@ -78,7 +75,7 @@ html, body {
 }
 body{
     margin: 0%;
-    background-image: url(../img/backgroundladybug.jpg);
+    background-image: url(/img/backgroundladybug.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -87,7 +84,7 @@ body{
     font-family: 'roman';
 }
 footer{
-    background-image: url(../img/daun.jpg);
+    background-image: url(/img/daun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 90px; 
