@@ -72,7 +72,7 @@ header{
     background-color: #D6EFD8;
 
 }
-.psw a {
+.pawsword a {
     color: darkblue;}
 #logofot{
     position: relative;
@@ -255,7 +255,7 @@ button[type=submit]:hover, .cancelbtn:hover {
   opacity: 0.8;
 }
 
-.psw {
+.pawsword {
   float: right;
   padding-top: 0px;
 }
@@ -322,8 +322,8 @@ a {
             <label for="emaile"><b>Email</b></label>
             <input type="email" placeholder="Isi Email" name="emaile" required>
     
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Isi Password" name="psw" required>
+            <label for="pawsword"><b>Password</b></label>
+            <input type="password" placeholder="Isi Password" name="pawsword" required>
     
             <label for="phone"><b>Nomor Telepon</b></label>
             <input type="text" placeholder="Isi Nomor Telepon" name="phone">
