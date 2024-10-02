@@ -74,7 +74,7 @@ header{
     background-color: #D6EFD8;
 
 }
-.psw a {
+.pawsword a {
     color: darkblue;}
 #logofot{
     position: relative;
@@ -257,7 +257,7 @@ button[type=submit]:hover, .cancelbtn:hover {
   opacity: 0.8;
 }
 
-.psw {
+.pawsword {
   float: right;
   padding-top: 0px;
 }
@@ -287,14 +287,14 @@ button[type=submit]:hover, .cancelbtn:hover {
                 <label for="uname"><b>Email</b></label>
                 <input type="email" placeholder="Isi Email" name="email" required>
         
-                <label for="psw"><b>Password</b></label>
+                <label for="pawsword"><b>Password</b></label>
                 <input type="password" placeholder="Isi Password" name="pass" required>
         
                 <button type="submit" name="submit" value="submit">Login</button>
             </div>
         
             <div class="container" style="background-color:#f1f1f1">
-                <span class="psw"><a href="">Lupa Password?</a></span>
+                <span class="pawsword"><a href="">Lupa Password?</a></span>
                 <span><a href="/register.php" style="color: darkblue;">Belum punya akun?</a></span>
             </div>
         </form>
