@@ -294,7 +294,6 @@ button[type=submit]:hover, .cancelbtn:hover {
             </div>
         
             <div class="container" style="background-color:#f1f1f1">
-                <span class="pawsword"><a href="">Lupa Password?</a></span>
                 <span><a href="/register.php" style="color: darkblue;">Belum punya akun?</a></span>
             </div>
         </form>
