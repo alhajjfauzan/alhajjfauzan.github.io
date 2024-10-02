@@ -323,7 +323,7 @@ a {
             <input type="email" placeholder="Isi Email" name="emaile" required>
     
             <label for="pawsword"><b>Password</b></label>
-            <input type="password" placeholder="Isi Password" name="pawsword" required>
+            <input type="password" placeholder="Isi Password" name="pawsworde" required>
     
             <label for="phone"><b>Nomor Telepon</b></label>
             <input type="text" placeholder="Isi Nomor Telepon" name="phone">
