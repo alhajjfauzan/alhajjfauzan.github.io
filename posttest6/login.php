@@ -299,7 +299,7 @@ button[type=submit]:hover, .cancelbtn:hover {
         <nav class="navbar">
             <a href=# class="logotop">InsectPedia</a>
             <ul class="menu">
-                <li class="barground"><a href="index.php" class="connec">Beranda</a></li>
+                <li class="barground"><a href="index.html" class="connec">Beranda</a></li>
                 <li class="barground"><a href="tentang_saya.html" class="connec">Tentang Saya</a></li>
                 <li class="barground"><a href=#logofot class="connec">kontak</a></li>
                 <li class="barground"><a href="login.php" class="connec">Login</a></li>
