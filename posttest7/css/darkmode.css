@@ -1,0 +1,41 @@
+.darkm header{
+    background-color: #DCFFB7;
+}
+
+.darkm a{
+	color: rgb(0, 0, 0); 
+}
+
+.darkm h1{
+    color: black; 
+}
+.darkm p{
+    color: black; 
+}
+.darkm{
+    background-color: rgba(255, 255, 255, 0.116)
+}
+.darkm .box1{
+    background-color: #DCFFB7;
+}
+
+.darkm footer{
+    background-color: transparent;
+    color:black;
+}
+.darkm .navbar a:hover{
+    background-color: #1A5319;
+    color: white;
+    border-radius: 5px;
+    padding:5px;
+}
+.darkm .connec:hover{
+    color: #1A5319;
+}
+
+.darkm .kartupage{
+    background-color: black;
+}
+.darkm .desc{
+    color: aliceblue;
+}
